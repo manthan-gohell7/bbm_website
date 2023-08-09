@@ -1,0 +1,183 @@
+.intro-screen {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	min-width: auto;
+}
+
+.intro-screen .mainContainer {
+	background-color: #ffffff;
+	border: 1px none;
+	min-height: 100vh;
+	overflow: hidden;
+	min-width: 100vw;
+}
+
+.intro-screen .subContainer {
+	height: 100%;
+	position: relative;
+	top: -6px;
+	width: 100%;
+}
+
+.intro-screen .subContainer-group {
+	height: 50%;
+	position: relative;
+	width: 86%;
+}
+
+.intro-screen .rightFlower {
+	height: 700px;
+	position: relative;
+	top: -80px;
+	z-index: 8;
+	left: calc(14vw);
+	width: 700px;
+}
+
+
+.intro-screen .img {
+	height: 700px;
+	left: 12%;
+	position: absolute;
+	top: calc(5vh);
+	width: 640px;
+}
+
+.intro-screen .musicDisc {
+	left: 44.9%;
+	z-index: 9;
+	position: absolute;
+	top: calc(12vh);
+	height: 563px;
+	width: 563px;
+}
+
+.intro-screen .trackImage {
+	z-index: 10;
+	left: 38%;
+	position: absolute;
+	top: calc(17vh);
+	height: 503px;
+	width: 526px;
+
+}
+
+.intro-screen .amazonMusicContainer {
+	height: 70px;
+	left: 0%;
+	position: relative;
+	top: calc(77vh);
+	width: 30.25%;
+	float: left;
+}
+
+.intro-screen .playStore {
+	height: 53px;
+	left: 22.2%;
+	position: absolute;
+	top: calc(90.5vh);
+
+}
+
+.intro-screen .enterSiteBtn {
+	text-decoration-line: none;
+	-moz-text-decoration-line: none;
+	z-index: 15;
+	color: #000000;
+	font-family: 'Poppins', Helvetica;
+	font-size: 15px;
+	font-weight: 600;
+	height: 20px;
+	left: calc(46.8vw);
+	letter-spacing: 2px;
+	line-height: 30px;
+	position: absolute;
+	top: calc(92vh);
+	white-space: nowrap;
+	width: 118px;
+}
+
+.intro-screen .header {
+	z-index: 15;
+	align-items: flex-start;
+	background-color: transparent;
+	display: flex;
+	gap: 892.8px;
+	left: 0;
+	padding: 0px 25px 0px 25px;
+	position: absolute;
+	top: 10px;
+	width: 1920px;
+}
+
+.intro-screen .headerPosition {
+	align-items: flex-center;
+	display: flex;
+	padding: 20px 0px 20px 3.64px;
+	position: absolute;
+}
+
+.intro-screen .title {
+	color: #000000;
+	font-family: 'Poppins', Helvetica;
+	font-size: 27px;
+	font-weight: 600;
+	height: 52px;
+	letter-spacing: 0;
+	line-height: 21px;
+	margin-right: -249px;
+	margin-top: -1px;
+	position: relative;
+	width: 357px;
+}
+
+.amazonMusic {
+	z-index: 15;
+	position: absolute;
+	top: calc(14vh);
+	left: calc(70vw);
+	height: 50px;
+}
+
+.playStore {
+	position: absolute;
+	top: calc(14vh);
+	left: calc(60vw);
+	height: 50px;
+}
+
+.spin {
+	animation: spin 12s linear 0s infinite;
+	-moz-animation: 12s linear 0s none infinite spin;
+	-webkit-animation: spin 12s linear 0s infinite;
+	-o-animation: spin 12s linear 0s infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(-360deg);
+	}
+}
+
+@-moz-keyframes spin {
+	0% {
+		-moz-transform: rotate(-360deg);
+	}
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(-360deg);
+	}
+}
+
+@-o-keyframes spin {
+	0% {
+		-o-transform: rotate(-360deg);
+	}
+}
